@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var numeroPensado = Math.round(Math.random() * 10);
+        console.log(numeroPensado);
+
+        var tentativas = 1;
+
+        while (tentativas <= 3) {
+
+            var chute = parseInt(prompt("Digite seu chute!"));
+
+            if (chute == numeroPensado) {
+
+                document.write("Você ACERTOU, o número pensado era " + numeroPensado);
+                break;
+
+            } else {
+
+                document.write("Você ERROU!");
+            }
+
+            tentativas++;
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var total = parseInt( prompt("Numero De Pessoas"));
+        var idadeT =  0;
+
+        for(var x =1 ; x <= total; x++){
+
+            var idade = parseInt( prompt("Idade De Pessoas"));
+            idadeT = idade + idadeT;
+
+        }
+        document.write("<hr>O valor sera de " + idadeT + " <br> ")
+        
+        idadeT = idadeT / total; 
+
+        document.write("O valor sera de " + idadeT + "<hr>");
+
+
+
+
+    </script>
+</body>
+</html>

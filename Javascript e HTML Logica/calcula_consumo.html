@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Álcool ou Gasolina?</h3>
+    <h4>qual é mais eficiente?</h4>
+    <br>
+
+    <script>
+        
+        function Pular(){
+            document.write("<br><br>");
+        }
+
+        function Mostra(word){
+            document.write(word);
+            Pular();1
+        }
+
+        TanqueGasolina = 40;
+        tanqueÁlcool = 40;
+
+        GasolinaKM = 480;
+        ÁlcoolKM = 300;
+
+        ConsumoGasolina = GasolinaKM/TanqueGasolina;
+        ConsumoDeÁlcool = ÁlcoolKM/tanqueÁlcool;
+
+        Mostra("Consumo de Gasolina : " + ConsumoGasolina +" Km/L");
+        //""Pular();
+        Mostra("Consumo de Álcool : " + ConsumoDeÁlcool + " Km/L");
+
+    </script>
+</body>
+</html>
