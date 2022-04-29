@@ -77,3 +77,31 @@ footer {
   color: white;
   margin-top: 10px;
 }
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form{
+  padding: 40px;
+  margin: 40px 0;
+}
+form label{
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+
+}
+form input{
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  display: block;
+  width: 50%;
+}
+
+.botao{
+  background-color: blanchedalmond;
+  padding: 9px;
+  width: 7%;
+}
