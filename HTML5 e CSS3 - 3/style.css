@@ -131,6 +131,12 @@ table {
 thead{
 
   background-color: #1d5c63;
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
+  border: 2px solid;
+  border-color: black;
+}
+td, th{
+border: 1px solid;
+padding: 15px;
 }
