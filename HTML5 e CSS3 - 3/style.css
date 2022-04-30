@@ -110,7 +110,20 @@ fieldset legend{
 }
 
 .botao {
-  background-color: blanchedalmond;
-  padding: 9px;
-  width: 7%;
+  background-color: darkblue;
+  padding: 15px;
+  width: 40%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s all ;
+  
+}
+
+.botao:hover {
+  background: darkcyan;
+  transform: scale(1.1) rotate(2deg);
 }
