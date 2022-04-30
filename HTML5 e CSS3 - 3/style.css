@@ -78,29 +78,38 @@ footer {
   margin-top: 10px;
 }
 
-main{
+main {
   width: 940px;
   margin: 0 auto;
 }
 
-form{
+form {
   padding: 40px;
   margin: 40px 0;
 }
-form label{
+form label,form legend {
   font-size: 20px;
   display: block;
   margin-bottom: 10px;
-
 }
-form input{
+.default {
   padding: 10px 25px;
   margin-bottom: 10px;
   display: block;
   width: 50%;
 }
 
-.botao{
+
+.checkbox {
+  margin: 20px 0px;
+}
+
+
+fieldset legend{
+  padding-top: 15px;
+}
+
+.botao {
   background-color: blanchedalmond;
   padding: 9px;
   width: 7%;
