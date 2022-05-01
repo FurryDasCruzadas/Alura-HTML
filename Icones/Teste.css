@@ -1,0 +1,29 @@
+body{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+padding: 10px;
+  background-color: whitesmoke;
+}
+.logo {
+  width: 240px;
+}
+.caixa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.caixa li {
+  display: inline-block;
+    margin: 0 20px;
+}
+
+.caixa li a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
