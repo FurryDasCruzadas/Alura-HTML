@@ -87,7 +87,8 @@ main {
 form {
   margin: 40px 0;
 }
-form label,form legend {
+form label,
+form legend {
   font-size: 20px;
   display: block;
   margin-bottom: 10px;
@@ -125,19 +126,51 @@ fieldset legend {
   transform: scale(1.1) rotate(2deg);
 }
 table {
-  
   margin: 40px 0px;
 }
 
-thead{
-
+thead {
   background-color: #1d5c63;
   color: whitesmoke;
   font-weight: bold;
   border: 2px solid;
   border-color: black;
 }
-td, th{
-border: 1px solid;
-padding: 15px;
+td,
+th {
+  border: 1px solid;
+  padding: 15px;
+}
+
+/* -------- css paginal inicial -------------- */
+.banner {
+  width: 100%;
+}
+
+.TituloGeral {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+  clear: left;
+}
+
+.main p {
+  margin-bottom: 1em;
+}
+
+.main strong {
+  font-weight: bold;
+}
+
+.main em {
+  font-style: italic;
+}
+
+.utensilios {
+  width: 150px;
+  float: left;
+  margin: 0px 20px 20px 0px;
+}
+.imgbene {
+  width: 60%;
 }
