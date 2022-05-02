@@ -13,7 +13,7 @@ header {
   border-bottom: 5px groove #14213d;
 }
 .logo {
-  width: 240px;
+  width: 140px;
   border-radius: 40px;
 }
 .caixa {
@@ -30,7 +30,7 @@ header {
 }
 
 .caixa li a {
-  font-size: 30px;
+  font-size: 25px;
   color: #e5e5e5;
   text-decoration: none;
   font-weight: bold;
@@ -44,46 +44,57 @@ header {
 
 .formatando {
   /*border: 1px blue solid; */
-  margin: 20px;
   font-size: 40px;
   text-align: center;
   color: yellow;
   text-transform: uppercase;
   font-weight: 900;
+  margin: 2em 0px;
 }
 
-
+.fundo{
+  margin: 0 auto;
+  width: 80%;
+}
 .gifs {
   /* border: 1px red solid;*/
   display: flex ;
   flex-wrap: wrap;
-  align-items: center;
+  align-content: center; 
   margin: 0 auto;
 }
 
 .elementos {
+  padding: 1em;
   display: inline-block;
   margin: 0 auto;
-  padding: 0px 10px;
+  margin-bottom: 4em;
+  background-color: rgba(1, 48, 70, 0.178);
+  border: solid 2px whitesmoke;
+  border-radius: 15px;
+}
+.elementos:hover {
+  transform: scale(1.2);
+  
 }
 
 .tamanho{
-  width: 430px;
-  height: 480px;
+  align-content: center; 
+  width: 240px;
+  height: 280px;
 }
 .tituloGif {
   /* border: 1px green solid; */
-  margin: 10px 0;
   font-weight: bold;
   font-size: 40px;
   color: white;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .legenda {
-  
-  padding: 1em 0;
+  margin-top: 15px;
   text-align: center;
-  color: antiquewhite;
+  color: white;
   font-size: 30px;
 }
