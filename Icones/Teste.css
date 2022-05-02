@@ -5,6 +5,8 @@ body {
   background-color: black;
 }
 
+/* -------------------------------- HEADER ---------------------------------- */
+
 header {
   padding: 20px;
   background-color: rgb(0, 0, 0);
@@ -24,7 +26,7 @@ header {
   margin: 0 20px;
 }
 .caixa li:hover {
-    transform: scale(1.4);
+  transform: scale(1.4);
 }
 
 .caixa li a {
@@ -38,11 +40,50 @@ header {
   border-radius: 5px;*/
 }
 
-.formatando{
-    margin-top: 40px;
-    font-size: 40px;
-    text-align: center;
-    color: yellow;
-    text-transform: uppercase;
-    font-weight: 900;
+/*----------------------------------- BODY -------------------------------------------*/
+
+.formatando {
+  /*border: 1px blue solid; */
+  margin: 20px;
+  font-size: 40px;
+  text-align: center;
+  color: yellow;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+
+.gifs {
+  /* border: 1px red solid;*/
+  display: flex ;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.elementos {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.tamanho{
+  width: 430px;
+  height: 480px;
+}
+.tituloGif {
+  /* border: 1px green solid; */
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.legenda {
+  
+  padding: 1em 0;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 30px;
 }
