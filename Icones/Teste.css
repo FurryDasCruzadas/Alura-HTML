@@ -49,21 +49,24 @@ header {
   color: yellow;
   text-transform: uppercase;
   font-weight: 900;
-  margin: 2em 0px;
+  margin: 1em 0px;
 }
+
 .gifs {
   /* border: 1px red solid;*/
   display: flex ;
   flex-wrap: wrap;
   align-content: center; 
   margin: 0 auto;
+  width: 80%;
+  justify-content: center;
 }
 
 .elementos {
   padding: 1em;
   display: inline-block;
   margin: 0 auto;
-  margin: 3em;
+  margin: 2em;
   background-color: rgba(1, 48, 70, 0.178);
   border: solid 1px whitesmoke;
   border-radius: 15px;
