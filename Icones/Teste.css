@@ -51,11 +51,6 @@ header {
   font-weight: 900;
   margin: 2em 0px;
 }
-
-.fundo{
-  margin: 0 auto;
-  width: 80%;
-}
 .gifs {
   /* border: 1px red solid;*/
   display: flex ;
@@ -68,9 +63,9 @@ header {
   padding: 1em;
   display: inline-block;
   margin: 0 auto;
-  margin-bottom: 4em;
+  margin: 3em;
   background-color: rgba(1, 48, 70, 0.178);
-  border: solid 2px whitesmoke;
+  border: solid 1px whitesmoke;
   border-radius: 15px;
 }
 .elementos:hover {
@@ -80,8 +75,8 @@ header {
 
 .tamanho{
   align-content: center; 
-  width: 240px;
-  height: 280px;
+  width: 270px;
+  height: 300px;
 }
 .tituloGif {
   /* border: 1px green solid; */
