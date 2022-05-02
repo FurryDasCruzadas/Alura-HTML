@@ -154,8 +154,10 @@ th {
   padding: 1em;
   text-align: center;
   font-size: 2em;
-  clear: left;
+  clear:
+  left;
 }
+
 
 .main p {
   margin-bottom: 1em;
@@ -217,4 +219,7 @@ th {
 .mapalugar {
   width: 940px;
   margin: 0 auto;
+}
+.item:before {
+  content:"✦"; 	
 }
