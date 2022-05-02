@@ -51,6 +51,9 @@ header {
   font-weight: 900;
   margin: 1em 0px;
 }
+.formatando :end{
+  font-size: 80px;
+}
 
 .gifs {
   /* border: 1px red solid;*/
