@@ -51,18 +51,19 @@ header {
   font-weight: 900;
   margin: 1em 0px;
 }
-.formatando :end{
+.formatando :end {
   font-size: 80px;
 }
 
-.fundo{
-  border-bottom: solid 1px #14213d ;
+.fundo {
+  border-bottom: solid 1px #14213d;
+  padding-bottom: 2em;
 }
 .gifs {
   /* border: 1px red solid;*/
-  display: flex ;
+  display: flex;
   flex-wrap: wrap;
-  align-content: center; 
+  align-content: center;
   margin: 0 auto;
   width: 80%;
   justify-content: center;
@@ -79,11 +80,10 @@ header {
 }
 .elementos:hover {
   transform: scale(1.2);
-  
 }
 
-.tamanho{
-  align-content: center; 
+.tamanho {
+  align-content: center;
   width: 270px;
   height: 300px;
 }
@@ -103,22 +103,32 @@ header {
   font-size: 30px;
 }
 
+/*----------------------------------- FOOTER -------------------------------------------*/
 
-footer div{
+
+footer div {
   color: #e5e5e5;
   text-align: center;
-  
+  margin-bottom: 2em;
 }
 
-footer p{
-  display: lock;
-  font-size: 20px;
+footer p {
+  font-size: 15px;
   text-align: center;
-
+  font-weight: bold;
+  color: green;
+  padding: 5px 0px;
 }
 
-footer img{
+footer p:last-child {
+  color: red;
+}
+
+footer img {
   width: 120px;
   display: inline-block;
-  
+}
+
+p strong{
+  text-decoration: underline;
 }
