@@ -1,3 +1,13 @@
-.navbar{
-    background-color: black;
+#carouselExampleCaptions{
+    font-family: 'Passions Conflict', cursive;
+}
+.imgcar-1{
+object-fit: cover;
+object-position: 0 80%;
+height: 400px;
+}
+
+.imgcar-2{
+    object-fit: cover;
+    height: 400px;
 }
