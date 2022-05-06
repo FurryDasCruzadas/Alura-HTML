@@ -170,11 +170,12 @@ label{
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  background-color: var(--titulo);
+  background-color: var(--font-color);
   border-radius: 10px;
   cursor: pointer;
   width: 5%;
   margin-bottom: 1em;
+  color: var(--backgorud-gifs);
 }
 
 
