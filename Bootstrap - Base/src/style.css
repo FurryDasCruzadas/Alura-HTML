@@ -1,5 +1,5 @@
 #carouselExampleCaptions{
-    font-family: 'Passions Conflict', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 .imgcar-1{
 object-fit: cover;
@@ -12,5 +12,17 @@ height: 400px;
     height: 400px;
 }
 .cor{
-    color: yellow;
+    color: black;
+}
+.fonte{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+.tituloCor{
+    color: darkred;
+
+}
+.botaoCor{
+    background-color: darkred;
 }
