@@ -23,6 +23,12 @@ height: 400px;
     color: darkred;
 
 }
+
+.carde{
+    border: 2px solid;
+    border-color: darkred;
+}
 .botaoCor{
     background-color: darkred;
+    color: white;
 }
