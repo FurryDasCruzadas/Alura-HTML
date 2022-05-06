@@ -154,19 +154,27 @@ p strong{
   text-decoration: underline;
 }
 
-
+.botao{
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+}
 .checkbox{
+  
   opacity: 0;
   position: absolute;
 }
 
 label{
-  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
   background-color: var(--titulo);
   border-radius: 10px;
   cursor: pointer;
-  height: 26px;
-  width: 50px;
+  width: 5%;
+  margin-bottom: 1em;
 }
 
 
