@@ -32,3 +32,8 @@ height: 400px;
     background-color: darkred;
     color: white;
 }
+
+.imgcard{
+    object-fit: cover;
+    height: 200px;
+}
