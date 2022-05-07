@@ -20,7 +20,7 @@ height: 400px;
     color: gray;
 }
 .tituloCor{
-    color: darkred;
+    color: darkred!important ;
 
 }
 

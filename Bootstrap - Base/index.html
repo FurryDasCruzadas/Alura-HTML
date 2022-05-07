@@ -21,9 +21,9 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Fruta & Fruto</a>
+          <a  id ="carouselExampleCaptions" class="navbar-brand tituloCor" href="#">Fruta & Fruto</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -36,7 +36,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse d-flex justify-content-end fixed-top"
+            class="collapse navbar-collapse d-flex justify-content-end"
             id="navbarNavAltMarkup"
           >
             <ul class="navbar-nav">
@@ -47,7 +47,15 @@
               </li>
               <li><a class="nav-link" href="#">Receita</a></li>
               <li><a class="nav-link" href="#">Qeum Somos</a></li>
-              <li><a class="nav-link" href="#">Contato</a></li>
+              <li>
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Contato</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -128,9 +136,9 @@
         economizar, ganhar tempo e praticidade
       </p>
 
-      <div class="container-fluid bg-light">
+      <section class="container-fluid bg-light">
         <div class="row justify-content-center">
-          <article class="card carde col-md-4 p-0 m-4"  style="max-width: 18rem">
+          <article class="card carde col-md-4 p-0 m-4" style="max-width: 18rem">
             <img
               src="src/img/receita-abacate.jpg"
               class="card-img-top imgcard"
@@ -224,14 +232,92 @@
             </div>
           </article>
         </div>
-      </div>
+      </section>
+
+      
+      <article
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <section class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </section>
+
+            <section class="modal-body">
+              <form>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Nome Completo"
+                    id="floatingTextarea"
+                  ></textarea>
+                  <label for="floatingTextarea">Nome</label>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Endereço de Email
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="email@email.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Comentario</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </form>
+            </section>
+
+            <section class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Fechar
+              </button>
+              <button type="button" class="btn botaoCor">
+                Enviar
+              </button>
+            </section>
+          </div>
+        </div>
+      </article>
+
     </main>
 
-    <p>
-      contato:<a href="mailto:email@frutafruto.com.br"
-        >email@frutafruto.com.br</a
-      >
-    </p>
+    <footer class=" bg-secondary  p-3" >
+
+      <p class="text-light m-0 text-center">
+        contato:<a  class="text-light" href="mailto:email@frutafruto.com.br"
+          > email@frutafruto.com.br</a
+        >
+      </p>
+
+    </footer>
+
+  
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
