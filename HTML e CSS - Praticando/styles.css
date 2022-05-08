@@ -1,0 +1,15 @@
+:root{
+    --CorPrincipal: white;
+    --colorSegudaria:grey;
+    --botao: blue;
+    --Fundo:black;
+    
+}
+
+body{
+    background-color: var(--Fundo);
+}
+
+body h1{
+
+    color:var(--CorPrincipal);
