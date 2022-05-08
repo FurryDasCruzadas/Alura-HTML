@@ -1,15 +1,50 @@
-:root{
-    --CorPrincipal: white;
-    --colorSegudaria:grey;
-    --botao: blue;
-    --Fundo:black;
-    
+:root {
+  --CorPrincipal: white;
+  --colorSegudaria: grey;
+  --botao: blue;
+  --Fundo: black;
 }
 
-body{
-    background-color: var(--Fundo);
+body {
+  background-color: var(--Fundo);
+  color: var(--CorPrincipal);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Titulo{
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.principal {
+  background-image: url("img/Background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50% 50%;
 }
 
-body h1{
+.BotaoAlura1{
+  background-color: var(--botao);
+  text-decoration: none;
+  border-radius: 10px;
+  color: var(--CorPrincipal);
+  padding: 1rem;
+  display: block;
+}
 
-    color:var(--CorPrincipal);
+.BotaoAlura2{
+  background-color: transparent;
+  border: 2px solid var(--CorPrincipal);
+  text-decoration: none;
+  border-radius: 10px;
+  color: var(--CorPrincipal);
+  padding: 1rem;
+  display: block;
+}
+.Aviso{
+  font-size: 12px;
+  color: gray;
+}
