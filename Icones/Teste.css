@@ -176,20 +176,20 @@ label {
   transform: scale(1.2);
 }
 
-label .ball{
-border-radius: 10px;
-background-color: var(--background-color);
-position: absolute;
-top: 6px;
-left: 12px;
+label .ball {
+  border-radius: 10px;
+  background-color: var(--background-color);
+  position: absolute;
+  position: left;
+  top: 6px;
+  left: 12px;
 
-height: 25px;
-width: 25px;
+  height: 25px;
+  width: 25px;
 
-transform: translateX(0px);
-transition: translateX 1.2s linear ;
+  transform: translateX(0px);
 }
 
-.checkbox:checked + label .ball{
-transform: translateX(30px);
+.checkbox:checked + label .ball {
+  transform: translateX(45px);
 }
