@@ -14,15 +14,12 @@ let contador = 0;
 
 console.log("\nDestinos");
 console.log(ListaDeDestino);
-const Comprar = (IdadeComprador >= 18  || acomp == true );
+const Comprar = (IdadeComprador >= 18  || Acomp == true );
 
 while(contador<3){
   if(ListaDeDestino[contador] == destino){
     console.log("Destino existe")
     break;
-  }
-  else{
-    console.log("nao existe")
   }
   contador++;
 
