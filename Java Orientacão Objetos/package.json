@@ -1,0 +1,22 @@
+{
+  "name": "byetbank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/FurryDasCruzadas/Alura-HTML1.git"
+  },
+  "author": "J.C",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/FurryDasCruzadas/Alura-HTML1/issues"
+  },
+  "homepage": "https://github.com/FurryDasCruzadas/Alura-HTML1#readme"
+  
+
+}
