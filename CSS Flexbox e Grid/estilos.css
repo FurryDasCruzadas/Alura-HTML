@@ -38,12 +38,12 @@ body {
   width: 65vw;
   height: 100vh;
   position: absolute;
-  left: -100vw;
+  left: 0vw;
   transition: 0.45s;
 }
 
 .MenuLateral--ativo {
-  left: 0vw;
+  left: -100vw;
 }
 
 nav img {
@@ -94,6 +94,8 @@ nav img {
 
 main {
   padding: 24px 16px;
+  display: grid;
+  gap: 16px;
 }
 
 .TituloMain {
@@ -109,7 +111,8 @@ main {
 .CartaoConteudo {
   padding: 16px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  grid-template-columns: auto 1fr;
 }
 .CartaoDestaque {
   grid-column: span 2;
@@ -148,9 +151,8 @@ main {
   height: 40px;
   border-radius: 10px;
   font-size: 1rem;
-  overflow: hidden;
 }
-.BotaoCartaoPlay {
+.BotaoCartaoPlay::before {
   content: "\e90b";
   font-size: 24px;
 }
@@ -162,4 +164,12 @@ main {
 
 .BotaoCartaoDestaque::before {
   margin-right: 8px;
+}
+.Sessao{
+  display: grid;
+  gap: 16px;
+}
+.SessaoTitulo{
+  font-size: 1.2rem;
+  font-weight: 700;
 }
