@@ -9,6 +9,63 @@ body {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1240px) {
+  body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+  .cabecalho {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 16px 60px;
+    height: 80px;
+    box-sizing: border-box;
+  }
+
+  .cabecalho__menu {
+    display: none;
+  }
+  .cabecalho__logo {
+    display: none;
+  }
+  .CabecalhoPerfil {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 8px;
+    align-items: center;
+    justify-self: flex-end;
+    color: white;
+    padding: 8px 16px;
+    border-right: 1px solid #95999c;
+  }
+  .CabecalhoPerfil::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(assets/img/profile_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .CabecalhoPerfil::after {
+    content: "\e90d";
+    color: white;
+    font-size: 1.5rem;
+  }
+  .MenuLateral {
+    position: static;
+    width: 200px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 32px;
+    padding: 16px 60px;
+  }
+}
+
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -165,11 +222,11 @@ main {
 .BotaoCartaoDestaque::before {
   margin-right: 8px;
 }
-.Sessao{
+.Sessao {
   display: grid;
   gap: 16px;
 }
-.SessaoTitulo{
+.SessaoTitulo {
   font-size: 1.2rem;
   font-weight: 700;
 }

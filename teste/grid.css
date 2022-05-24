@@ -28,7 +28,8 @@
   border-radius: 10px;
   min-width: 50px;
   min-height: 50px;
-  grid-row: span 3;
+  grid-row: 1 / span 3;
+  grid-column: 4;
 }
 
 .meio {
