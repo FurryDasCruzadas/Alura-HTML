@@ -77,7 +77,7 @@ body {
 
 .cabecalho__menu i::before {
   content: "\e904";
-  font-size: 24px;
+  font-size: 1px;
 }
 
 .cabecalho__notificacao i::before {
