@@ -20,3 +20,9 @@ function depositar( array $conta, float $valor)
   }
   return $conta;
 }
+
+function grande(array &$conta)
+{
+    $conta['titular'] = mb_strtoupper($conta['titular']);
+
+}

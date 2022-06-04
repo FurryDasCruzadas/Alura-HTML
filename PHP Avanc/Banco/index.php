@@ -24,7 +24,8 @@ $contasCorrentes = [
 
 //$contasCorrentes['123.456.789-10'] = sacar($contasCorrentes['123.456.789-10'], 1);
 $contasCorrentes['123.456.789-10'] = depositar($contasCorrentes['123.456.789-10'], 50);
+//unset($contasCorrentes['123.456.689-11']);
 
 foreach ($contasCorrentes as $cpf => $conta) {
-  echo "$cpf {$conta['saldo']}".PHP_EOL;
+  echo "$cpf {$conta['titular']}".PHP_EOL;
 }
