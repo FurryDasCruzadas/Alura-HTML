@@ -1,5 +1,7 @@
 <?php
 
+namespace PHP\Conta;
+
 class Conta
 {
     private $Titular;
@@ -77,7 +79,4 @@ class Conta
             exit();
         }
     }
-
-
-   
 }

@@ -1,10 +1,11 @@
 {
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
   "workbench.colorCustomizations": {
+  
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active"
   },
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
-  "C_Cpp.dimInactiveRegions": true
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "C_Cpp.dimInactiveRegions": true,
+  "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
