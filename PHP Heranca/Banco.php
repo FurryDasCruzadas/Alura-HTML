@@ -2,12 +2,15 @@
 
 require_once('Conta.php');
 require_once('titular.php');
+require_once('Endereco.php');
 
-$vini = new Titular('032-640-600-00','joaocamilo');
-$primeiraConta = new Conta($vini);
+$CasaDoJc = new endereco('lajeado','centro','43','104');
+$JC = new Titular('032-640-600-00','Joao Camilo',$CasaDoJc);
+$primeiraConta = new Conta($JC);
 
-//var_dump($primeiraConta);
-
+$CasaDoDavi = new endereco('lajeado','igrejinha','nao sei','32');
+$DAVI = new Titular('752-728-280-10','Davi Gisch',$CasaDoDavi);
+$SegundaConta = new Conta($DAVI);
 
 var_dump($primeiraConta);
 
