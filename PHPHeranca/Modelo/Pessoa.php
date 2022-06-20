@@ -1,6 +1,8 @@
 <?php
 
-namespace PHP;
+namespace PHPHeranca\Modelo\Pessoa;
+
+use PHPHeranca\Modelo\Conta\Conta;
 
 class Pessoa
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHP\Conta;
+namespace PHPHeranca\Modelo\Conta;
 
 class Conta
 {

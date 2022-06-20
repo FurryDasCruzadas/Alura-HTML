@@ -1,6 +1,9 @@
 <?php
 
-namespace PHP\Conta;
+namespace PHPHeranca\Modelo\func;
+
+use PHPHeranca\Modelo\Pessoa\Pessoa;
+use PHPHeranca\Modelo\Conta\Conta;
 
 class funcionario extends Pessoa
 {

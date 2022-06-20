@@ -1,12 +1,17 @@
 <?php
 
-namespace PHP;
+namespace PHPHeranca\Modelo\conta;
 
-require_once('Conta.php');
-require_once('Pessoa.php');
-require_once('titular.php');
-require_once('Endereco.php');
-require_once('Func.php');
+use PHPHeranca\Modelo\Conta\Conta;
+use PHPHeranca\Modelo\Pessoa;
+use PHPHeranca\Modelo\Endereco;
+use PHPHeranca\Modelo\func\funcionario;
+
+require_once('PHPHeranca\Modelo\Conta\Conta.php');
+require_once('PHPHeranca\Modelo\Pessoa.php');
+require_once('PHPHeranca\Modelo\Conta\titular.php');
+require_once('PHPHeranca\Modelo\Endereco.php');
+require_once('PHPHeranca\Modelo\Func.php');
 
 /*
 $CasaDoJc = new endereco('lajeado','centro','43','104');

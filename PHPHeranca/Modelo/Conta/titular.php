@@ -1,6 +1,11 @@
 <?php
 
-namespace PHP\Conta;
+namespace PHPHeranca\Modelo\titular;
+
+use PHPHeranca\Modelo\Conta\Conta;
+use PHPHeranca\Modelo\Pessoa\Pessoa;
+use PHPHeranca\Modelo\Endereco;
+
 
 class Titular extends Pessoa
 {
@@ -11,7 +16,6 @@ class Titular extends Pessoa
     parent::__construct($cpf, $nome);
     $this->endereco = $endereco;
   }
-
 
   public function VerEndereco()
   {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHP;
+namespace PHPHeranca\Modelo\Endereco;
 
 class endereco
 {
