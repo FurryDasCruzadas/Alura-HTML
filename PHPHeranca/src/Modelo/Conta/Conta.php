@@ -1,17 +1,20 @@
 <?php
 
-namespace Alura\Banco\Modelo\Conta;
+namespace PHPHeranca\src\Modelo\Conta;
 
 class Conta
 {
     private $titular;
     private $saldo;
     private static $numeroDeContas = 0;
+    private $Tipo= 0;
+    //1 CC 2 P
 
     public function __construct(Titular $titular)
     {
         $this->titular = $titular;
         $this->saldo = 0;
+        
 
         self::$numeroDeContas++;
     }
@@ -23,6 +26,9 @@ class Conta
 
     public function sacar(float $valorASacar)
     {
+
+        if( )
+
         if ($valorASacar > $this->saldo) {
             return;
         }
