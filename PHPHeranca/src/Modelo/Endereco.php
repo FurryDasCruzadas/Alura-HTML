@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPHeranca\src\Modelo;
+namespace Alura\Banco\Modelo;
 
 class Endereco
 {

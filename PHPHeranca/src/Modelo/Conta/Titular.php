@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPHeranca\src\Modelo\Conta;
+namespace Alura\Banco\Modelo\Conta;
 
 use Alura\Banco\Modelo\Pessoa;
 use Alura\Banco\Modelo\CPF;

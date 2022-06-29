@@ -2,16 +2,16 @@
 
 require_once 'autoload.php';
 
-use PHPHeranca\src\Modelo\Conta\Titular;
+use Alura\Banco\Modelo\Conta\Titular;
 use Alura\Banco\Modelo\Endereco;
 use Alura\Banco\Modelo\CPF;
-use PHPHeranca\src\Modelo\Conta\Conta;
+use Alura\Banco\Modelo\Conta\Conta;
 
-$endereco = new Endereco('Petrópolis','um bairro','minha rua','71B');
+$endereco = new Endereco('Petrópolis', 'um bairro', 'minha rua', '71B');
 $vinicius = new Titular(new CPF('123.456.789-10'), 'Vinicius Dias', $endereco);
 $primeiraConta = new Conta($vinicius);
-$primeiraConta->depositar(500);
-$primeiraConta->sacar(300); // isso é ok
+$primeiraConta->deposita(500);
+$primeiraConta->saca(300); // isso é ok
 
 echo $primeiraConta->recuperaNomeTitular() . PHP_EOL;
 echo $primeiraConta->recuperaCpfTitular() . PHP_EOL;
