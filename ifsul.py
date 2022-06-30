@@ -23,7 +23,7 @@ VecEnd_y = [4,6,0]
 VecEnd_z = [4,4,0]
 
 for i in range(3):
-  ax.plot([VecStart_start[i], VecEnd_x[i]], [VecStart_start[i],VecEnd_y[i]],zs=[VecStart_start[i],VecEnd_z[i]] color=red)
+  ax.plot([VecStart_start[i], VecEnd_x[i]], [VecStart_start[i],VecEnd_y[i]],zs=[VecStart_start[i],VecEnd_z[i]])
 
 
 plt.show()

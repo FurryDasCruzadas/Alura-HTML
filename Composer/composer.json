@@ -1,0 +1,8 @@
+{
+    "name": "jc/alura",
+    "description": "teste",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
