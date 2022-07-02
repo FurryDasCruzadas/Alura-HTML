@@ -41,7 +41,7 @@ header .container{
   margin:1%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
   header .container{
     display: flex;
@@ -69,5 +69,8 @@ header .container{
   }
   .rodapePrincipal-contatoForm-fieldset{
     justify-content: center;
+  }
+  .app{
+    order: -1;
   }
 }
