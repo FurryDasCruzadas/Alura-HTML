@@ -3,12 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pytransform3d import rotations as pr
 
-print('Ponto 1')
+print('Vetor 1')
 x1 = int(input('valor x1: '));
 y1 = int(input('valor y1: '));
 z1 = int(input('valor z1: '));
 
-print('Ponto 2')
+print('Vetor 2')
 x2 = int(input('valor x2: '));
 y2 = int(input('valor y2: '));
 z2 = int(input('valor z2: '));
@@ -41,7 +41,6 @@ euler = [0, 0, r2]
 #euler[axis] = angle
 R = pr.active_matrix_from_intrinsic_euler_xyz(euler)
 pr.plot_basis(ax, R, p,lw=3)
-
 
 
 plt.show()

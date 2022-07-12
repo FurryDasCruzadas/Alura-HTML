@@ -1,30 +1,22 @@
+from cmath import pi
+import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
+from pytransform3d import rotations as pr
 
-fig = plt.figure(figsize=(6,6))
+ax = pr.plot_basis(R=np.eye(3), ax_s=4, lw=3)             #ponto 1
+axis = 0
+angle = np.pi
 
-ax = fig.add_subplot(111, projection='3d')
+p = np.array([2, 0, 0])                                   #ponto 2
+euler = [0, 0, 0]
+#euler[axis] = angle
+R = pr.active_matrix_from_intrinsic_euler_zyx(euler)
+pr.plot_basis(ax, R, p, lw=3)
 
-ax.set_xlabel("X")
-ax.set_ylabel("Y")
-ax.set_zlabel("Z")
-
-VecStart_start = [0,0,0,0]
-VecEnd_x = [1,0,0,0]
-VecEnd_y = [0,1,0,0]
-VecEnd_z = [0,0,1,0]
-for i in range(4):
-  ax.plot([VecStart_start[i], VecEnd_x[i]], [VecStart_start[i],VecEnd_y[i]],[VecStart_start[i],VecEnd_z[i]])
-
-
-VecStart_startx = [3,3,3,0]
-VecStart_starty = [0,0,0,0]
-VecStart_startz = [0,0,0,0]
-
-VecEnd_x1 = [VecStart_startx[0]+1,VecStart_startx[1],VecStart_startx[2],VecStart_startx[3]]
-VecEnd_y1 = [VecStart_starty[0],VecStart_starty[1]+1,VecStart_starty[2],VecStart_starty[3]]
-VecEnd_z1 = [VecStart_startz[0],VecStart_startz[1],VecStart_startz[2]+1,VecStart_startz[3]]
-for i in range(4):
-  ax.plot([VecStart_startx[i], VecEnd_x1[i]], [VecStart_starty[i],VecEnd_y1[i]],[VecStart_startz[i],VecEnd_z1[i]])
+p = np.array([3, 3, 0])                               #ponto 3
+euler = [0, 0, 0]
+#euler[axis] = angle
+R = pr.active_matrix_from_intrinsic_euler_xyz(euler)
+pr.plot_basis(ax, R, p,lw=3)
 
 plt.show()
