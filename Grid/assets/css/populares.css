@@ -10,8 +10,6 @@
     ;
   grid-template-columns: 100%;
   background-color: #fdfdfd;
-  width: 25%;
-  grid-template-rows: 250px auto;
 }
 
 .populares__card___imagem{
