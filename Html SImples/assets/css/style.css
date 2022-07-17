@@ -1,41 +1,61 @@
-.receitas {
-  background-color: #e5e5e5;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 0 1rem;
+.quem-somos__titulo {
+  margin-bottom: 1rem;
+  color: #8d0606;
+  font-size: 3rem;
+  font-family: pacifico, cursive;
 }
-.receita {
-  background-color: white;
+
+.quem-somos {
+  text-align: center;
+  padding: 5rem;
+}
+
+.quem-somos__descricao {
+  font-weight: 100;
+  font-size: 1.75rem;
+  color: #595959;
+}
+
+.pessoa {
   display: flex;
   flex-direction: column;
-  margin: 2rem 0;
-  width: 400px;
 }
-.receita__imagem{
-  height: 200px;
-  width: 400px;
+
+.pessoa__nome {
+  margin: 1rem 0;
+  font-family: pacifico, cursive;
+  color: #8d0606;
+  font-size: 2rem;
 }
-.receitas__titulo {
-  font-size: 1.4rem;
+
+.pessoa__funcao {
+  text-transform: lowercase;
+  color: #595959;
+  font-size: 1.25rem;
 }
-.receita__descricao {
-  font-size: 1.18rem;
-  text-align: justify;
-  line-height: 1.5;
+
+.pessoas {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
 }
-.receita__conteudo{
-  padding: 1rem;
+
+.pessoa__imagem {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.receita__botao{
-  color: white;
-  background-color: rgb(109, 16, 0);
-  border-radius: 5px;
-  border: none;
-  padding: .5rem;
-  transition: all .1s ease-in-out;
+
+.pessoa__imagem--roberta {
+  background-image: url("../img/pessoas/roberta.jpg");
 }
-.receita__botao:hover{
-  cursor:pointer ;
-  background-color: #620404;
+.pessoa__imagem--marcela {
+  background-image: url("../img/pessoas/marcela.jpg");
+}
+.pessoa__imagem--andreia {
+  background-image: url("../img/pessoas/andreia.jpg");
 }
