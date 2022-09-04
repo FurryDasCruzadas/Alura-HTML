@@ -1,0 +1,18 @@
+.campo-digitacao {
+  font-size: 20px;
+  height: 56px;
+  border: 3px solid black;
+}
+.certo{
+  color: green;
+}
+.erado{
+  color: red;
+}
+
+.campo-desativado {
+  background-color: lightgray;
+}
+.icones {
+  vertical-align: middle;
+}

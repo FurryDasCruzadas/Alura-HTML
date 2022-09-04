@@ -2,26 +2,69 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/jquery.js"></script>
     <title>Alura Typer</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css" />
+    <link rel="stylesheet" href="css/libs/google-fonts.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
-    <h1>Alura Typer</h1>
-    <p class="frase">I AM FURRY</p>
+    <div class="container">
+      <h1 class="center">Alura Typer</h1>
+      <p class="frase center">I AM FURRY</p>
 
-    <ul class="info">
-      <li><span id="info-numero"> x </span> Palavras</li>
-      <li><span id="info-tempo"> 10 </span> Segundos</li>
-    </ul>
+      <ul class="informacoes center">
+        <li class="icones">
+          <i class="small material-icons icones">description</i>
+          <span id="tamanho-frase">19</span> palavras
+        </li>
+        <li class="icones">
+          <i class="small material-icons icones">query_builder</i>
+          <span id="tempo-digitacao">15</span> segundos
+        </li>
+      </ul>
 
-    <textarea name="campoditar" id="campoditar" cols="80" rows="5"></textarea>
+      <textarea class="campo-digitacao" rows="8" cols="40"></textarea>
+      <div class="botoes">
+        <a
+          id="botao-reiniciar"
+          class="btn-floating btn-large waves-effect waves-light red"
+        >
+          <i class="material-icons">restore</i>
+        </a>
+      </div>
 
-    <ul>
-      <li><span id="contador-caracteres"> 0 </span> caracteres</li>
-      <li><span id="contador-palavras"> 0 </span> palavras</li>
-    </ul>
+      <ul class="center">
+        <li><span id="contador-caracteres">0</span> caracteres</li>
+        <li><span id="contador-palavras">0</span> palavras</li>
+      </ul>
+    </div>
+
+    <section class="placar">
+      <h3 class="center">Placar</h3>
+      <table class="centered bordered">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Nº De Palavras</th>
+            <th>Remover</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nome</td>
+            <td>Palavras</td>
+            <td>
+              <a href="#">
+                <i class="small material-icons remover ">delete</i>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
   </body>
-  <script src="js/main.js"></script>
 </html>
